@@ -1,0 +1,11 @@
+numpy==1.24.3
+pandas==2.0.3
+openai==1.54.3
+python-dotenv==1.0.0
+psutil==5.9.8  # For hardware monitoring
+requests==2.31.0
+torch==2.2.0
+transformers==4.37.2
+accelerate==0.27.2  # For efficient model loading
+safetensors==0.4.2  # For efficient model loading
+google-generativeai==0.3.2  # For Gemini API 
