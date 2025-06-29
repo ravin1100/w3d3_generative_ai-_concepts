@@ -1,0 +1,128 @@
+{
+  "tools": {
+    "cursor": {
+      "name": "Cursor AI",
+      "key_capabilities": [
+        "Multi-line code completion and suggestions",
+        "Project-wide context understanding",
+        "Direct code modifications with preview",
+        "Natural language code search",
+        "Automatic error detection and fixes",
+        "Terminal command generation",
+        "Image-based code generation",
+        "Documentation integration"
+      ],
+      "optimization_strategies": {
+        "prompt_structure": {
+          "context_inclusion": "Always include relevant project context and file references using @ symbols",
+          "specificity": "Be precise about the desired changes or features",
+          "code_style": "Reference existing code patterns in the project"
+        },
+        "best_practices": [
+          "Include sufficient context from surrounding code",
+          "Specify file paths and dependencies clearly",
+          "Reference documentation when introducing new features",
+          "Include error handling and edge cases",
+          "Follow project's existing patterns and conventions"
+        ],
+        "limitations": [
+          "May need explicit context for complex project structures",
+          "Works best with common programming languages and frameworks",
+          "Requires clear specification of dependencies"
+        ]
+      }
+    },
+    "copilot": {
+      "name": "GitHub Copilot",
+      "key_capabilities": [
+        "Real-time inline code suggestions",
+        "Multi-line code completion",
+        "Natural language to code conversion",
+        "Code explanation and documentation",
+        "Test generation",
+        "Bug detection and fixes",
+        "Multi-file edits"
+      ],
+      "optimization_strategies": {
+        "prompt_structure": {
+          "context_inclusion": "Focus on current file and open editor context",
+          "specificity": "Use clear function and variable names",
+          "code_style": "Follow repository's coding conventions"
+        },
+        "best_practices": [
+          "Write clear docstrings and comments",
+          "Use descriptive variable and function names",
+          "Break down complex tasks into smaller steps",
+          "Include type hints where applicable",
+          "Reference similar patterns in the codebase"
+        ],
+        "limitations": [
+          "Limited project-wide context without explicit references",
+          "Works best with popular programming languages",
+          "May need guidance for complex architectural decisions"
+        ]
+      }
+    },
+    "replit": {
+      "name": "Replit AI",
+      "key_capabilities": [
+        "Complete app generation from descriptions",
+        "Real-time code completion",
+        "Automatic error detection and fixes",
+        "Natural language code explanations",
+        "Package management and dependency handling",
+        "Database schema modifications",
+        "Deployment automation"
+      ],
+      "optimization_strategies": {
+        "prompt_structure": {
+          "context_inclusion": "Describe full application context and requirements",
+          "specificity": "Detail desired functionality and user interactions",
+          "code_style": "Specify preferred frameworks and technologies"
+        },
+        "best_practices": [
+          "Provide clear application architecture requirements",
+          "Specify database schema and relationships",
+          "Include deployment environment details",
+          "Define user interface requirements",
+          "Outline security and performance needs"
+        ],
+        "limitations": [
+          "Works best within Replit's environment",
+          "May require specific framework choices",
+          "Complex deployments may need manual configuration"
+        ]
+      }
+    },
+    "codewhisperer": {
+      "name": "Amazon CodeWhisperer",
+      "optimization_strategies": [
+        "Focus on AWS service integration",
+        "Include security best practices",
+        "Specify compliance requirements",
+        "Add error handling patterns",
+        "Define scalability considerations"
+      ]
+    },
+    "tabnine": {
+      "name": "Tabnine",
+      "optimization_strategies": [
+        "Use consistent code patterns",
+        "Include type information",
+        "Add contextual comments",
+        "Specify code style preferences",
+        "Define module organization"
+      ]
+    },
+    "codeium": {
+      "name": "Codeium",
+      "optimization_strategies": [
+        "Include test cases and scenarios",
+        "Specify edge cases to handle",
+        "Add performance requirements",
+        "Define code quality standards",
+        "Include documentation requirements"
+      ]
+    }
+  }
+} 
