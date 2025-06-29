@@ -1,0 +1,146 @@
+{
+    "agents": [
+        {
+            "id": "github-copilot",
+            "name": "GitHub Copilot",
+            "description": "AI-powered code completion tool that integrates directly with your IDE",
+            "capabilities": [
+                "Real-time code suggestions",
+                "Multi-language support",
+                "Context-aware completions",
+                "Function documentation generation",
+                "Test case generation"
+            ],
+            "strengths": [
+                "Excellent IDE integration",
+                "Large training dataset",
+                "Real-time suggestions",
+                "Strong community support"
+            ],
+            "limitations": [
+                "Requires paid subscription",
+                "May suggest outdated patterns",
+                "Limited to code completion"
+            ],
+            "best_use_cases": [
+                "Individual developers",
+                "Small to medium projects",
+                "Rapid prototyping",
+                "Code documentation"
+            ],
+            "pricing": "Monthly subscription",
+            "integration_methods": ["VS Code", "Visual Studio", "JetBrains IDEs", "Neovim"],
+            "complexity_handling": {
+                "simple": 0.9,
+                "medium": 0.8,
+                "complex": 0.7
+            }
+        },
+        {
+            "id": "cursor",
+            "name": "Cursor",
+            "description": "AI-first IDE with powerful code generation and editing capabilities",
+            "capabilities": [
+                "Full code generation",
+                "Code explanation",
+                "Refactoring assistance",
+                "Bug fixing",
+                "Natural language to code"
+            ],
+            "strengths": [
+                "Powerful code generation",
+                "Built-in IDE features",
+                "Natural language understanding",
+                "Code editing capabilities"
+            ],
+            "limitations": [
+                "Newer platform",
+                "Limited ecosystem",
+                "May require more context"
+            ],
+            "best_use_cases": [
+                "Full project development",
+                "Code refactoring",
+                "Learning programming",
+                "Project exploration"
+            ],
+            "pricing": "Free tier available",
+            "integration_methods": ["Standalone IDE"],
+            "complexity_handling": {
+                "simple": 0.85,
+                "medium": 0.9,
+                "complex": 0.8
+            }
+        },
+        {
+            "id": "amazon-codewhisperer",
+            "name": "Amazon CodeWhisperer",
+            "description": "AI coding companion with security scanning capabilities",
+            "capabilities": [
+                "Code suggestions",
+                "Security scanning",
+                "AWS integration",
+                "Multi-language support"
+            ],
+            "strengths": [
+                "Strong security focus",
+                "AWS service integration",
+                "Enterprise support",
+                "Reference tracking"
+            ],
+            "limitations": [
+                "AWS-centric",
+                "Limited IDE support",
+                "Enterprise focus"
+            ],
+            "best_use_cases": [
+                "Enterprise development",
+                "AWS projects",
+                "Security-focused development",
+                "Cloud applications"
+            ],
+            "pricing": "Free for individual use",
+            "integration_methods": ["VS Code", "AWS Cloud9", "JetBrains IDEs"],
+            "complexity_handling": {
+                "simple": 0.8,
+                "medium": 0.85,
+                "complex": 0.9
+            }
+        },
+        {
+            "id": "replit-ghostwriter",
+            "name": "Replit Ghostwriter",
+            "description": "Browser-based AI coding assistant with real-time collaboration",
+            "capabilities": [
+                "Code completion",
+                "Code explanation",
+                "Debug assistance",
+                "Online collaboration"
+            ],
+            "strengths": [
+                "No setup required",
+                "Collaborative features",
+                "Browser-based",
+                "Educational focus"
+            ],
+            "limitations": [
+                "Internet dependency",
+                "Limited offline support",
+                "Resource constraints"
+            ],
+            "best_use_cases": [
+                "Educational projects",
+                "Collaborative coding",
+                "Quick prototypes",
+                "Learning programming"
+            ],
+            "pricing": "Subscription based",
+            "integration_methods": ["Web browser"],
+            "complexity_handling": {
+                "simple": 0.9,
+                "medium": 0.75,
+                "complex": 0.6
+            }
+        }
+    ]
+} 

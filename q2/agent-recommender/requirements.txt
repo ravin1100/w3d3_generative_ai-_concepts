@@ -1,0 +1,6 @@
+quart==0.19.4
+google-generativeai==0.3.2
+python-dotenv==1.0.1
+requests==2.31.0
+flask-cors==4.0.0
+hypercorn==0.15.0  # ASGI server for Quart 
